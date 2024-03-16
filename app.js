@@ -13,7 +13,7 @@ app.use(cookieParser());
 app.set('view engine','ejs');
 
 //database connection..
-const dbURI='mongodb+srv://ME44:mohith1234@cluster0.epmtaho.mongodb.net/node-auth';
+const dbURI='mongodb connection string';
 mongoose.connect(dbURI)
 .then(result=>{
     console.log('coonected to db');
